@@ -1,10 +1,20 @@
+.content{
+  text-align: center;
+  background-color: lightgrey;
+  width: 1000px;
+  border: 25px solid green;
+  padding: 15px;
+  margin: 25px;
+}
+
 .img{
-  max-width: 100%;
-    height: auto;
+    float: right;
+    width: auto;
   }
-ul {
+
+.nav-sidebar ul {
     list-style-type: none;
-    margin: 0;
+    margin: 25px;
     padding: 0;
     width: 25%;
     background-color: #4d4c4f;
@@ -20,6 +30,7 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
 }
+
 li a.active {
     background-color: #FFCA28;
     color: white;
